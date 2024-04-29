@@ -1,11 +1,12 @@
-import React from 'react'
-import "../styles/Loader.scss"
+import React from 'react';
+import "../styles/Loader.scss";
+
 const Loader = () => {
   return (
-    <div className='Loader'>
-        <div className='loader-inner'></div>
+    <div className='loader-container'>
+      <div className='loader'></div>
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;
